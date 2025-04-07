@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .container {
+    width: 505px;
+    height: 325px;
+    border: 2px solid black;
+    position: relative;
+    padding: 10px;
+  }
+
+  .header {
+    position: absolute;
+    border: 2px solid black;
+    padding: 10px;
+    background: white;
+  }
+  #col1 { 
+    width: 200px;
+    left: 0;
+    top: 0;
+  }
+  #col2 {
+    width: 110px;
+    left: 210px;
+    top: 0;
+  }
+  #col3 {
+    width: 110px;
+    left: 330px;
+    top: 0;
+  }
+
+  .main-box {
+    position: absolute;
+    border: 2px solid black;
+    padding: 10px;
+  }
+  #numbered-list {
+    background: blue;
+    width: 200px;
+    height: 240px;
+    top: 50px;
+    left: 0;
+  }
+  #B-box {
+    background: yellow;
+    width: 110px;
+    height: 30px;
+    top: 50px;
+    left: 210px;
+  }
+  #C-box {
+    background: red;
+    width: 110px;
+    height: 30px;
+    top: 50px;
+    left: 330px;
+  }
+  #unnumbered-list {
+    background: green;
+    width: 250px;
+    height: 180px;
+    top: 90px;
+    left: 210px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header" id="col1"><b>Column 1</b></div>
+  <div class="header" id="col2"><b>Column 2</b></div>
+  <div class="header" id="col3"><b>Column 3</b></div>
+
+  <div class="main-box" id="numbered-list">
+    <b>An Numbered List</b>
+    <ol>
+      <li>Able</li>
+      <li>Baker</li>
+      <li>Charlie</li>
+      <li>Delta</li>
+      <li>Echo</li>
+    </ol>
+  </div>
+
+  <div class="main-box" id="B-box">B</div>
+  <div class="main-box" id="C-box">C</div>
+
+  <div class="main-box" id="unnumbered-list">
+    <b>An Unnumbered List</b>
+    <ul>
+      <li>Pounds</li>
+      <li>Dollars</li>
+      <li>Euro</li>
+      <li>Yen</li>
+      <li>Roubles</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
